@@ -126,7 +126,7 @@ for(elemento of operaciones){
             break;
        
     }
-    console.log('resultado ' + resultado)
+    console.log('resultado ' + resultado);
 }*/
 //Calcular el area de un triángulo dada su base y su altura y mostrar por pantalla el resultado
 var base = 5;
