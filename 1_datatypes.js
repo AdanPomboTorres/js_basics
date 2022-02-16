@@ -34,12 +34,12 @@ if (quintaVariable == sextaVariable){
 //utilizar las mismas variables del ejercicio anterior y realizar una comparación estricta
 console.log(quintaVariable === sextaVariable);
 
-<<<<<<< HEAD
+ HEAD
 //crear dos arrays con el mismo contenido y comparar si ambos arrays son iguales
 
 //crear dos arrays con el mismo contenido y comparar con "==" si ambos arrays son iguales
 
->>>>>>> 
+
 // crear un objeto "usuario", con tres propiedades
 
 /* Operaciones con números */
