@@ -22,7 +22,7 @@ if (terceraVariable == cuartaVariable){
 }
 
 //crear una variable de tipo string y otra de tipo int, ambas con el mismo valor numérico. Compararlas para ver si contienen el mismo valor
-var quintaVariable = "20";
+var quintaVariable = 20;
 var sextaVariable = "Pepe";
 
 if (quintaVariable == sextaVariable){
@@ -51,6 +51,15 @@ let cuartoArray = [32,3,76];
 
 console.log(tercerArray.length == cuartoArray.length);
 
+//ahora comparar el contenido de dichos arrays utilizando un bucle
+var sonIguales = true;
+for (let i = 0; i < tercerArray.length; i++){
+    tercerArray[i] != cuartoArray[i]; {
+            sonIguales = false;
+    }
+}
+
+console.log(sonIguales);
 // crear un objeto "usuario", con tres propiedades
 const usuario = {
     nombre: "Fulano",
